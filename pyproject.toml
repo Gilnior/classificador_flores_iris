@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "classificador_flores_iris"
+version = "0.1.0"
+description = ""
+authors = ["Gilnior <gilnior123@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+pandas = "^1.4.3"
+numpy = "^1.23.1"
+scipy = "^1.9.0"
+scikit-learn = "^1.1.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
